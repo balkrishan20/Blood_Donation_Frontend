@@ -22,8 +22,8 @@ const Home = () => {
       <Events/>
       <Testimonials/>
       <Footer/>
-      
     </div>
+    
   )
 }
 

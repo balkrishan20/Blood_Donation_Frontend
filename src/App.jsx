@@ -5,7 +5,7 @@ import SignIn from './components/auth/SignIn/SignIn'
 import UserSidebar from './components/shared/UserSidebar'
 import UserNavbar from './components/shared/userNavbar'
 import UserHome from './components/shared/UserHome'
-
+import Chat from './components/shared/Chat'
 
 
 const appRouter = createBrowserRouter([
@@ -32,7 +32,11 @@ const appRouter = createBrowserRouter([
   {
     path: '/userhome',
     element: <UserHome/>
-  }
+  },
+  {
+    path: '/chat',
+    element: <Chat/>
+  },
 
 ])
 function App() {
